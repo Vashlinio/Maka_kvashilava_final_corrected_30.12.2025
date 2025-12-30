@@ -1,0 +1,214 @@
+/* 320px */
+@media (max-width: 320px) {
+
+
+  /* ---------- container ----------- */
+  .container {
+    padding-top: 100px;
+  }
+
+
+  /* ---------------------- home page --------------------- */
+  /* --------- header --------- */
+  header {
+    padding: 28px 8px;
+  }
+
+
+  .header-burger-menu {
+    display: block;
+  }
+
+
+  .header-list {
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    width: 200px;
+    height: 144px;
+    background-color: #C46A2B;
+    transition: .4s linear;
+  }
+
+
+  .show {
+    left: 0;
+  }
+
+
+  .header-nav-list {
+    flex-direction: column;
+    padding: 16px;
+    row-gap: 8px;
+  }
+
+
+  .logo-link img {
+    width: 40px;
+    height: 40px;
+  }
+
+
+  .header-btns {
+    column-gap: 16px;
+  }
+
+
+  .header-btns button {
+    width: 32px;
+    height: 32px;
+  }
+
+
+  /* ---------home page section1----------- */
+  .section1 {
+    height: 320px;
+    padding-top: 32px;
+  }
+
+
+  .section1-text-and-icon {
+    gap: 16px;
+  }
+
+
+  .word-new,
+  .word-collection {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+
+  /* --------- home page section 2 ------- */
+  .home-page-section2 {
+    padding: 32px 0px 32px 8px;
+  }
+
+
+  .home-page-section2-main-title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 48px;
+  }
+
+
+  .home-page-section2-cards-container {
+    overflow-x: scroll;
+  }
+
+
+  .home-page-section2-card {
+    flex: 1 0 272px;
+  }
+
+
+  /* ------- footer -------*/
+  footer {
+    padding-block: 32px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 40px;
+  }
+
+
+  .footer-social-media {
+    justify-content: center;
+  }
+
+
+  /* ---------------------- catalog page --------------------- */
+  .catalog-main {
+    padding: 32px 8px;
+    row-gap: 40px;
+  }
+
+
+  .filter-text,
+  .sort-btn-text,
+  .none320 {
+    display: none;
+  }
+
+
+  .sort-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+
+  .sort-btn {
+    width: 36px;
+  }
+
+
+  .catalog-cards-section {
+    grid-template-columns: 1fr;
+  }
+
+
+  .pagination-container {
+    column-gap: 46px;
+  }
+
+
+  .pagination-btn {
+    width: 52px;
+    height: 40px;
+    justify-content: center;
+  }
+
+
+  /* ---------------------- contact page --------------------- */
+  .contact-section-container {
+    height: auto;
+    padding: 48px 8px;
+  }
+
+
+  .contact-page-container {
+    width: 100%;
+    flex-direction: column;
+    padding: 16px 8px;
+  }
+
+
+  .contact-left,
+  .social-media-and-map-container {
+    width: 100%;
+  }
+
+
+  .contact-left-title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+
+
+  .contact-form {
+    row-gap: 24px;
+  }
+
+
+  .input-row {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+
+  .social-media-and-map-container {
+    row-gap: 24px;
+  }
+
+
+  .contact-social-media {
+    column-gap: 42px;
+  }
+
+
+  iframe {
+    height: 200px;
+  }
+}
+
